@@ -26,3 +26,22 @@
     display: grid;
     grid-template-columns: repeat(1,1fr);
 }
+
+.relative {
+    width: 100%;
+}
+
+.relative img {
+    width: 100%;
+    height: 350px;
+}
+
+.absolute {
+    width: 80%;
+    top: -10%;
+}
+
+.abs-left, .abs-right {
+    left: 50%;
+    translate: -50%;
+}

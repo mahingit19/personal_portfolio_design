@@ -21,3 +21,21 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
+
+.absolute {
+    width: 350px;
+    top: -50%;
+}
+
+.abs-left {
+    left: 50%;
+}
+
+.abs-right {
+    right: 50%;
+}
+
+.relative img {
+    width: 300px;
+    height: 350px;
+}
