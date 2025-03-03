@@ -11,3 +11,13 @@
     width: 50%;
 }
 
+.hero .left-side .span3 {
+    width: 75%;
+    margin: 30px 0px;
+}
+
+.services .grid {
+    margin: 80px 0px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}

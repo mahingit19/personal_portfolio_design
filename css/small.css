@@ -15,3 +15,14 @@
 .hero .left-side .wrap {
     margin: auto;
 }
+
+.hero .left-side .span3 {
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.services .grid {
+    margin: 80px 0px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
