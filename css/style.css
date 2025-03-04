@@ -48,9 +48,9 @@ body {
 }
 
 .hero .left-side .span2 {
-    font-size: 3rem;
+    font-size: 4rem;
     color: black;
-    line-height: 60px;
+    line-height: 6rem;
 }
 
 .hero .left-side .span3 {
@@ -110,12 +110,29 @@ body {
 }
 
 .hero .right-side img {
-    width: 300px;
     border-radius: 15px;
 }
 
 .services h1 {
     text-align: center;
+    letter-spacing: 0.2rem;
+    position: relative;
+}
+
+.services h1::before {
+    content: attr(data-outline);
+    position: absolute;
+    left: 2%;
+    top: -20%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    letter-spacing: 0.2rem;
+    color: transparent;
+    /* -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.103); */
+    -webkit-text-stroke: 1.5px #5a24ed2f;
+    z-index: -1;
 }
 
 .services .grid div {
