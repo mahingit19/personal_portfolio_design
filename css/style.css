@@ -28,9 +28,7 @@ body {
     justify-content: center;
 }
 
-.container .mtb {
-    margin: 15rem 0;
-}
+
 
 .hero {
     /* background-color: antiquewhite; */
@@ -118,7 +116,6 @@ body {
 
 .services h1 {
     text-align: center;
-    font-size: 5rem;
 }
 
 .services .grid div {
