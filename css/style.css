@@ -19,11 +19,10 @@ body {
     height: min-content;
     /* background-color: rgb(255, 255, 255); */
     margin: auto;
-    padding: 0px 30px;
+    padding: 0px 10px;
 }
 
 .container .vh {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,13 +60,17 @@ body {
     color: black;
 }
 
-.btn-grp {
+.btn-grp2 {
     display: flex;
     flex-direction: row;
 }
 
-.btn-grp > button {
+.btn-grp2 > button {
     margin-right: 10px;
+}
+
+.btn-grp {
+    display: flex;
 }
 
 .btn1 {

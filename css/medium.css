@@ -2,6 +2,10 @@
     width: 100%;
 }
 
+.container .vh {
+    height: 100vh;
+}
+
 .hero {
     display: flex;
     flex-direction: row;
@@ -57,4 +61,12 @@
 }
 .hero .right-side {
     text-align: right;
+}
+
+.btn-grp {
+    flex-direction: row;
+}
+
+.btn-grp > button {
+    margin-right: 10px;
 }
