@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Rowdies:wght@300;400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+.montserrat-900 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+.montserrat-normal {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+.roboto-mono-bold {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  }
+
 .inconsolata-font {
     font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;

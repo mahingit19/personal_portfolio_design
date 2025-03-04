@@ -1,7 +1,8 @@
 @import "large.css" screen and (min-width: 1024px);
-@import "medium.css" screen and (max-width: 1023px);
-@import "small.css" screen and (max-width: 640px);
+@import "medium.css" screen and (min-width: 801px) and (max-width: 1023px);
+@import "small.css" screen and (max-width: 800px);
 @import "fonts.css";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 * {
     margin: 0;
@@ -18,18 +19,24 @@ body {
     height: min-content;
     /* background-color: rgb(255, 255, 255); */
     margin: auto;
-    padding: 30px;
+    padding: 0px 30px;
 }
 
-.container > div {
-    margin: 100px 0px;
+.container .vh {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .mtb {
+    margin: 15rem 0;
 }
 
 .hero {
     /* background-color: antiquewhite; */
     width: 100%;
-    height: min-content;
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
 }
 
 .hero .left-side {
@@ -39,20 +46,19 @@ body {
 }
 
 .hero .left-side .span1 {
-    font-size: 18px;
+    font-size: 1.2rem;
     color: rgb(118, 77, 240);
 }
 
 .hero .left-side .span2 {
-    font-size: 48px;
+    font-size: 3rem;
     color: black;
     line-height: 60px;
 }
 
 .hero .left-side .span3 {
-    font-size: 16px;
+    font-size: 1rem;
     color: black;
-    line-height: 25px;
 }
 
 .btn-grp {
@@ -69,7 +75,7 @@ body {
     color: white;
     border: none;
     border-radius: 30px;
-    font-size: 18px; 
+    font-size: 1rem; 
     padding: 8px 18px;
 }
 
@@ -82,11 +88,12 @@ body {
 }
 
 .btn2 {
-    padding: 0px 11px;
+    padding: 6px 9px;
     border-radius: 50%;
     border: 2px solid rgb(90, 37, 237);
     background-color: transparent;
     color: rgb(90, 37, 237);
+    font-size: 2rem;
 }
 
 .btn2:hover {
@@ -97,7 +104,8 @@ body {
 }
 
 .hero .right-side {
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .hero .right-side img {
@@ -107,7 +115,7 @@ body {
 
 .services h1 {
     text-align: center;
-    font-size: 48px;
+    font-size: 5rem;
 }
 
 .services .grid div {
@@ -115,8 +123,9 @@ body {
 }
 
 .services .bg-stl i{
-    padding: 10px;
+    padding: 15px;
     border-radius: 50%;
+    font-size: 2rem;
 }
 
 .i1 {
@@ -136,11 +145,12 @@ body {
 }
 
 .services .mt {
-    margin-top: 10px;
+    margin-top: 20px;
+    color: #48464b;
 }
 
 .fsize {
-    font-size: 48px;
+    font-size: 5rem;
 }
 
 .bg-1 {
@@ -157,34 +167,41 @@ body {
 
 .project-wrap {
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
+    align-items: center;
     margin-top: 50px;
     /* background-color: aqua; */
 }
 
-.relative-wrap {
-    width: min-content;
-    /* background-color: aqua; */
-}
-
 .relative {
-    position: relative;
+    height: min-content;
 }
 
 .relative img {
+    object-fit: cover;
     background-color: white;
     border-radius: 15px;
+    width: 100%;
+    box-shadow: 0px 0px 20px #4705fc33;
 }
 
 .absolute {
-    position: relative;
+    /* position: relative; */
     display: grid;
-    gap: 10px;
+    gap: 20px;
     background-color: rgb(239, 235, 250);
-    padding: 20px;
+    padding: 30px;
     height: min-content;
     border-radius: 10px;
     box-shadow: 1px 1px 8px silver;
+}
+
+.text-fade {
+    color:#48464b
+}
+
+.text-bold {
+    font-weight: 900;
 }
 
 .btn3 {
@@ -192,7 +209,7 @@ body {
     color: rgb(90, 37, 237);
     border: 2px solid rgb(90, 37, 237);
     border-radius: 30px;
-    font-size: 18px; 
+    font-size: 1rem; 
     padding: 8px 18px;
 }
 

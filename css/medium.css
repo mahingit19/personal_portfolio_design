@@ -22,21 +22,39 @@
     grid-template-columns: repeat(3,1fr);
 }
 
-.absolute {
-    width: 100%;
-    top: 50%;
-    translate: 0 -50%;
-}
-
-.abs-left {
-    left: 50%;
-}
-
-.abs-right {
-    right: 50%;
+.relative {
+    width: 500px;
 }
 
 .relative img {
+    height: 500px;
+}
+
+.absolute {
+    width: 50%;
+}
+
+.abs-left {
+   margin-left: -10%;
+}
+
+.abs-right {
+    margin-right: -10%;
+    z-index: 2;
+}
+
+.hero .left-side .span3 {
+    width: 400px;
+}
+
+/* .relative img {
     width: 300px;
     height: 350px;
+} */
+
+.hero .right-side {
+    justify-content: end;
+}
+.hero .right-side {
+    text-align: right;
 }
